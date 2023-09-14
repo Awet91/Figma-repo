@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Figma page my assignment</title>
+    <script src="https://kit.fontawesome.com/fbe8f35a21.js" crossorigin="anonymous"></script>
+         <style>* {      
+width: 850px;
+box-sizing: border-box;
+}
+body {
+margin: 0 auto;
+width: 50%;
+height: 45%;
+}
+.box {
+background: rgb(69, 67, 67);
+padding-bottom: 0;
+}
+header {
+display: flex;
+justify-content: space-evenly;
+padding: 25px ;
+margin-bottom: 45px;
+}
+.container ul {
+list-style: none;
+text-decoration: none;
+display: flex;
+justify-content: space-between;
+}
+.container h1 {
+font-size: 20px;
+}
+.container li a {
+font-size: 20px;
+color: rgb(53, 5, 20);
+text-decoration: none;
+}
+.container li a:hover,
+
+.box h2 {
+text-align: center;
+color: rgb(33, 17, 151);
+font-size: 30;
+padding-top: 10px;
+}
+img {
+display: block;
+justify-content:center;
+padding: 20px 100px;
+width: 850px;
+height: 350px;
+}
+.search input {
+display: flex;
+justify-content: center;
+width: 550px;
+height: 40px;
+margin: 0 auto;
+}
+
+.input-icons i {
+display: flex;
+justify-content: center;
+position: absolute;
+color: rgb(199, 199, 245);
+padding: 10px;
+font-size: 23px;
+}
+.i fa-bitcoin {
+display: table-row;
+justify-content: end;
+color: red;
+}
+.button {
+font-size: x-large;
+width: 100px;
+height: 50px;
+display: flex;
+}
+.submit {
+display: flex;
+justify-content: space-between;
+} 
+        .search-icon {
+            text-decoration: none;
+            color: rgb(199, 199, 245);
+            padding: 10px;
+            font-size: 23px;
+        }
+        .search-icon:hover {
+            color: red;
+        }
+        .search-icon {
+          display: flex;  
+          justify-content: end;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="logo">logo</h1>
+            <ul>
+                <li><a class="current" href="customer">Customer</a></li>
+                <li><a href="merchants">Merchants</a></li>
+                <li><a href="reports">Reports</a></li>
+                <li><a href="admin">Admin</a></li>
+            </ul>
+        </header>
+    </div>
+    <div class="box">
+        <h2>Please provide why you need to visit the page!</h2>
+        <img src="https://images.mktw.net/im-783732?width=700&height=487" />
+        <form class="search" action="https://www.google.com/search" method="GET">
+            <div class="input-icons">
+                <a class="search-icon" href="https://www.google.com/search">
+                    <i class="fa fa-bitcoin"></i>
+                </a>
+                <input type="search" placeholder="Search customer" name="q">
+            </div>
+        </form>
+    </div>
+    <div class="submit">
+        <div class="button">
+            <button type="submit">Cancel</button>
+        </div>
+        <div class="button">
+            <button type="submit">Continue</button>
+        </div>
+    </div>
+</body>
+</html>
